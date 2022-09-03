@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  background-color: #222;
+  padding: 25px 100px;
+  font-weight: 600;
+}
+
+main {
+  padding: 50px 100px;
+  width: 50%;
+  float: left;
+}
+
+aside {
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 5%;
+  float: left;
+}
+
+main .user {
+  margin-bottom: 50px;
+  background-color: #3e8fa0;
+  padding: 20px;
+}
+
+main .delete_icon {
+  float: right;
+  margin-right: 25px;
+  color: #164b67;
+  cursor: pointer;
+  transform: scale(2);
+}
+
+main .edit_icon {
+  float: right;
+  margin-right: 25px;
+  color: #165664;
+  cursor: pointer;
+  transform: scale(2);
+}
+.user b {
+  display: flex;
+  justify-content: flex-start;
+}
+.user img {
+  margin-top: 5px;
+}
+
+main .delete_icon:hover,
+main .edit_icon:hover {
+  opacity: 0.5;
+}
+
+form input:not([type="checkbox"]),
+form textarea,
+form button {
+  width: 90%;
+  padding: 15px 5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border: 0;
+  background: #222;
+  color: #fff;
+  outline: none;
+  font-style: 15px;
+}
+
+form input[type="checkbox"] {
+  margin: 10px;
+}
+
+form button {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 500ms ease;
+}
+
+form button:hover {
+  transform: scale(1.1);
+}
+
+.user form {
+  margin-top: 20px;
+}
+.user form input,
+.user form textarea,
+.user form button {
+  background: #134b57;
+}
+.user form button:hover {
+  transform: scale(1.01);
+}
